@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <!-- merupakan komponen linear layout yaitu  kelompok tampilan yang menyejajarkan semua turunan dalam satu arah !-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- merupakan komponen untuk menampilkan gambar !-->
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+        <!-- merupakan komponen untuk menampilkan text !-->
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:fontFamily="serif"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
